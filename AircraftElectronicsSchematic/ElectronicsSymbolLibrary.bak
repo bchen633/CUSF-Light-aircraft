@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.032 0.508 0)
+			(at 2.286 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +62,7 @@
 				)
 			)
 			(text "5-1_Connector\n"
-				(at 2.032 -0.762 0)
+				(at 2.032 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -306,12 +306,154 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FPV_Camera"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FPV_Camera_1_1"
+			(rectangle
+				(start -11.43 3.81)
+				(end 11.43 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "FPV_Camera\n"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Ground_Rail"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.81 -0.508 0)
+			(at 11.43 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,7 +508,7 @@
 				)
 			)
 			(text "Ground_Rail\n"
-				(at 3.81 -2.032 0)
+				(at 6.604 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -631,7 +773,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 5.842 0)
+			(at 0 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +828,7 @@
 				)
 			)
 			(text "Matek_BEC12S_PRO"
-				(at 0 3.81 0)
+				(at 0 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -730,7 +872,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "OUT+"
 					(effects
@@ -853,7 +995,7 @@
 		)
 		(symbol "Matek_CRSF_PWM_C_1_1"
 			(pin power_in line
-				(at -15 8.89 0)
+				(at -15.24 8.89 0)
 				(length 5.08)
 				(name "5V"
 					(effects
@@ -871,7 +1013,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15 6.35 0)
+				(at -15.24 6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -889,7 +1031,7 @@
 				)
 			)
 			(pin output line
-				(at -15 3.81 0)
+				(at -15.24 3.81 0)
 				(length 5.08)
 				(name "TX1"
 					(effects
@@ -907,7 +1049,7 @@
 				)
 			)
 			(pin input line
-				(at -15 1.27 0)
+				(at -15.24 1.27 0)
 				(length 5.08)
 				(name "RX1"
 					(effects
@@ -925,7 +1067,7 @@
 				)
 			)
 			(pin output line
-				(at -15 -1.27 0)
+				(at -15.24 -1.27 0)
 				(length 5.08)
 				(name "TX2"
 					(effects
@@ -943,7 +1085,7 @@
 				)
 			)
 			(pin input line
-				(at -15 -3.81 0)
+				(at -15.24 -3.81 0)
 				(length 5.08)
 				(name "RX2"
 					(effects
@@ -961,7 +1103,7 @@
 				)
 			)
 			(pin input line
-				(at -15 -6.35 0)
+				(at -15.24 -6.35 0)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -979,7 +1121,7 @@
 				)
 			)
 			(pin input line
-				(at -15 -8.89 0)
+				(at -15.24 -8.89 0)
 				(length 5.08)
 				(name "CURR"
 					(effects
@@ -997,7 +1139,7 @@
 				)
 			)
 			(pin power_out line
-				(at -15 -13.97 0)
+				(at -15.24 -13.97 0)
 				(length 5.08)
 				(name "4V5"
 					(effects
@@ -1197,12 +1339,154 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Matek_MIOQ-5883_GPS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Matek_MIOQ-5883_GPS_1_1"
+			(rectangle
+				(start -11.43 3.81)
+				(end 11.43 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "Matek_MIOQ-5883_GPS"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Power_Rail"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.318 2.032 0)
+			(at 12.954 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1541,7 @@
 				)
 			)
 			(text "Power_Rail\n"
-				(at 4.318 0.508 0)
+				(at 8.382 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1540,7 +1824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 10.16 0)
+			(at 3.048 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1869,7 @@
 		(symbol "RadioMaster_XR3_Nano_1_1"
 			(rectangle
 				(start -8.89 6.35)
-				(end 8.89 -3.81)
+				(end 13.97 -3.81)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1595,7 +1879,7 @@
 				)
 			)
 			(text "RadioMaster_XR3_Nano"
-				(at 0 8.128 0)
+				(at 2.54 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1638,26 +1922,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 2.54 180)
-				(length 2.54)
-				(name "TX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 11.43 0 180)
+				(at 16.51 2.54 180)
 				(length 2.54)
 				(name "RX"
 					(effects
@@ -1674,6 +1940,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 16.51 0 180)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -1682,7 +1966,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -21.336 -14.986 90)
+			(at -13.97 -17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +2021,7 @@
 				)
 			)
 			(text "Tekk032_F4_45A_ESC"
-				(at -19.558 -14.986 900)
+				(at -16.256 -16.51 900)
 				(effects
 					(font
 						(size 1.27 1.27)

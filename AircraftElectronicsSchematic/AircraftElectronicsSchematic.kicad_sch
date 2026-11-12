@@ -1,0 +1,4244 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "02d672a3-1256-4f1e-b075-54da08135e5d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:5-1_Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5-1_Connector_0_1"
+				(rectangle
+					(start -20.32 -2.54)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5-1_Connector_1_1"
+				(text "5-1_Connector\n"
+					(at -2.54 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -15.24 270)
+					(length 2.54)
+					(name "IN+_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -15.24 270)
+					(length 2.54)
+					(name "IN+_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -15.24 270)
+					(length 2.54)
+					(name "IN+_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -15.24 270)
+					(length 2.54)
+					(name "IN+_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -15.24 270)
+					(length 2.54)
+					(name "IN+_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -6.35 0)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -8.89 0)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -11.43 0)
+					(length 2.54)
+					(name "GND_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:Ground_Rail"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ground_Rail_0_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end 5.08 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ground_Rail_1_1"
+				(text "Ground_Rail\n"
+					(at 0 -1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -3.81 -17.78 270)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -17.78 270)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 1.27 -17.78 270)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 3.81 -17.78 270)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:Matek_BEC12S_PRO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Matek_BEC12S_PRO_1_1"
+				(rectangle
+					(start -10.16 2.54)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Matek_BEC12S_PRO"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 180)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -3.81 180)
+					(length 2.54)
+					(name "GND_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -1.27 0)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -3.81 0)
+					(length 2.54)
+					(name "GND_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:Matek_CRSF_PWM_C"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.762 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Matek_CRSF_PWM_C"
+				(at -8.89 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.508 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Matek_CRSF_PWM_C_0_1"
+				(rectangle
+					(start -9.92 12.7)
+					(end 9.92 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "CRSF TO PWM"
+					(at -8.128 13.97 0)
+					(effects
+						(font
+							(size 1.5 1.5)
+						)
+						(justify left)
+					)
+				)
+				(text "10 CHANNEL"
+					(at -5.588 11.176 0)
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+						(justify left)
+					)
+				)
+			)
+			(symbol "Matek_CRSF_PWM_C_1_1"
+				(pin power_in line
+					(at -15 8.89 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15 3.81 0)
+					(length 5.08)
+					(name "TX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15 1.27 0)
+					(length 5.08)
+					(name "RX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15 -1.27 0)
+					(length 5.08)
+					(name "TX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15 -3.81 0)
+					(length 5.08)
+					(name "RX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15 -6.35 0)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15 -8.89 0)
+					(length 5.08)
+					(name "CURR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15 -13.97 0)
+					(length 5.08)
+					(name "4V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 11.43 180)
+					(length 5.08)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 8.89 180)
+					(length 5.08)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 6.35 180)
+					(length 5.08)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 3.81 180)
+					(length 5.08)
+					(name "CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 1.27 180)
+					(length 5.08)
+					(name "CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 -1.27 180)
+					(length 5.08)
+					(name "CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 -3.81 180)
+					(length 5.08)
+					(name "CH7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 -6.35 180)
+					(length 5.08)
+					(name "CH8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 -8.89 180)
+					(length 5.08)
+					(name "CH9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15 -11.43 180)
+					(length 5.08)
+					(name "CH10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:Power_Rail"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_Rail_0_1"
+				(rectangle
+					(start -5.08 0)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_Rail_1_1"
+				(text "Power_Rail\n"
+					(at 0 2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -1.27 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -3.81 -13.97 270)
+					(length 2.54)
+					(name "5V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -13.97 270)
+					(length 2.54)
+					(name "5V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 1.27 -13.97 270)
+					(length 2.54)
+					(name "5V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 3.81 -13.97 270)
+					(length 2.54)
+					(name "5V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:RadioMaster_XR3_Nano"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RadioMaster_XR3_Nano_1_1"
+				(rectangle
+					(start -11.43 6.35)
+					(end 11.43 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "RadioMaster_XR3_Nano"
+					(at 0 8.128 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 2.54 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 2.54 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 0 0)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ElectronicsSymbolLibrary:Tekk032_F4_45A_ESC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -21.336 -14.986 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tekk032_F4_45A_ESC_0_1"
+				(rectangle
+					(start -17.78 -2.54)
+					(end -7.62 -31.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Tekk032_F4_45A_ESC_1_1"
+				(text "Tekk032_F4_45A_ESC"
+					(at -19.558 -14.986 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -2.54 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -31.75 270)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 -2.54 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 -2.54 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -31.75 270)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 153.91 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193a1ae9-21c7-407f-b113-efa896a7324f")
+	)
+	(junction
+		(at 226.06 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8b37f9-42c1-474c-8e4e-bbe8eb5521cd")
+	)
+	(junction
+		(at 177.8 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5864fe7b-08a6-4ca8-9bf5-628fbb4aedbd")
+	)
+	(junction
+		(at 231.14 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a2208db-f719-4199-95a7-2abebe7f2eb6")
+	)
+	(junction
+		(at 172.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769f41f8-f567-4d80-9791-8e98e2e59a79")
+	)
+	(junction
+		(at 183.91 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "845e420d-2f2a-4b2c-8e24-69c036e32c9c")
+	)
+	(junction
+		(at 223.52 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9733c7f9-c0d2-4129-a4ca-07c429a90500")
+	)
+	(junction
+		(at 153.91 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3bc464b-4238-4428-8e6c-e6ddd0221c89")
+	)
+	(junction
+		(at 175.26 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b47a8382-cf80-4636-8267-54e7d8598f5f")
+	)
+	(junction
+		(at 153.91 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72acda3-e59e-46aa-ba79-950e76a40a67")
+	)
+	(junction
+		(at 153.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba103285-34b3-455e-af65-23cd6b7f76ee")
+	)
+	(junction
+		(at 180.34 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9651087-bee1-4306-aa22-4040cb3c7cdc")
+	)
+	(junction
+		(at 183.91 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e630754e-a764-4916-a761-c88de8390daf")
+	)
+	(junction
+		(at 228.6 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea659f87-48d0-4081-8411-44e7b82cc8bb")
+	)
+	(wire
+		(pts
+			(xy 134.62 63.5) (xy 134.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d2d82-3fca-48b3-8129-6e5ecf21e1a2")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 183.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e5eade-d638-45cb-a7fc-23ccc01f4c79")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0332336a-12ef-4e2f-bcde-1a66bbbcd4ba")
+	)
+	(wire
+		(pts
+			(xy 180.34 44.45) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041e8b59-dd5d-4dbc-b5df-439caa5f5738")
+	)
+	(wire
+		(pts
+			(xy 153.91 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0453f3fa-1136-405c-824e-2f0d9e1373f5")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cd19ae-c6b6-4d4e-9fc9-4d26c6a860d7")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 142.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad7737b-f103-4a03-9da6-46b1cc2efe35")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 223.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1b9036-2fcd-4920-93ed-b0639cb50a8e")
+	)
+	(wire
+		(pts
+			(xy 183.91 95.25) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd3be12-b73e-4b5e-abde-dba42f99c87e")
+	)
+	(wire
+		(pts
+			(xy 256.54 69.85) (xy 256.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf698e2-7f2b-4d11-9aa0-f9a42ac2d12e")
+	)
+	(wire
+		(pts
+			(xy 228.6 36.83) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff851e6-4325-41b0-84cb-77d17a8c1440")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 190.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ff9050-010e-42b7-a46f-010a0ae01165")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bc7ed3-b79f-425e-83e8-cf7f75b66254")
+	)
+	(wire
+		(pts
+			(xy 252.73 40.64) (xy 241.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162583c5-7a2d-41bd-be47-33fd510d260f")
+	)
+	(wire
+		(pts
+			(xy 180.34 36.83) (xy 177.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184bb9ba-5c4a-4bbc-9365-a5a7e0c77f4e")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7c9c22-bd30-425b-85c1-e52c4818da39")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a936b9a-2903-4d06-a60a-5c1f0a945f24")
+	)
+	(wire
+		(pts
+			(xy 231.14 29.21) (xy 223.52 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6015ed-aeb4-45bd-afac-e541134d9767")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 170.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e903642-d557-40f3-9947-c38241f20d18")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 241.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9e4ab3-9c8c-4342-98ad-c42fc941fcef")
+	)
+	(wire
+		(pts
+			(xy 231.14 25.4) (xy 220.98 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30737617-5b0f-4f15-817d-a7915bc79e42")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308922ea-edb6-4078-a77f-a88fd733c9c8")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eb5fe7-9ae2-4e4a-bd88-1fe118cd05b5")
+	)
+	(wire
+		(pts
+			(xy 172.72 44.45) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35030710-c02c-40c8-a18d-5b0c70dc848e")
+	)
+	(wire
+		(pts
+			(xy 259.08 57.15) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f1786d-188f-4360-8f67-5d2bf7bbee80")
+	)
+	(wire
+		(pts
+			(xy 220.98 25.4) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcff01b-2883-4ac4-a600-149ea01fdae8")
+	)
+	(wire
+		(pts
+			(xy 59.69 30.48) (xy 85.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffc23f5-21a8-4ba9-8411-ad832f5cc2fa")
+	)
+	(wire
+		(pts
+			(xy 85.09 30.48) (xy 85.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418e3819-dafa-4129-a594-48090a4ee107")
+	)
+	(wire
+		(pts
+			(xy 261.62 78.74) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4269d4e5-3269-4ea0-a0aa-fdf14ceb2719")
+	)
+	(wire
+		(pts
+			(xy 252.73 44.45) (xy 231.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d5bf90-3bc8-48e9-b4a5-96398b674605")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447ae010-acc6-4270-bda5-22d7155a67f8")
+	)
+	(wire
+		(pts
+			(xy 195.58 95.25) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48515b28-2b93-489e-bb44-1840eee81311")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 153.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcca032-f3e5-4d7b-b197-e9227e3415ac")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 234.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6d6c36-1f64-42e2-a979-954998b1004e")
+	)
+	(wire
+		(pts
+			(xy 158.75 102.87) (xy 153.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5175190f-ed84-43a1-b7ed-af4b6ca273de")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5848696d-2639-4735-9e38-9c2e3149e52f")
+	)
+	(wire
+		(pts
+			(xy 179.07 95.25) (xy 183.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dc9c4e-6baf-44ae-994a-4bddcae480a4")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 130.81 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c06b36-c38e-464e-8a94-3277b3620a5f")
+	)
+	(wire
+		(pts
+			(xy 139.7 69.85) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69051757-10c1-43e8-9116-d4226b31998b")
+	)
+	(wire
+		(pts
+			(xy 256.54 60.96) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd901b5-dbbe-4c71-9894-b7b9b82ad3d3")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74aa7b02-26fd-4a45-896d-a0a8567f05d2")
+	)
+	(wire
+		(pts
+			(xy 226.06 44.45) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d564936-c4de-4d2b-b8c7-bfb1bdb0ce41")
+	)
+	(wire
+		(pts
+			(xy 148.59 36.83) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824d2280-005c-4b79-bdfe-b4a3fc6d7384")
+	)
+	(wire
+		(pts
+			(xy 153.91 102.87) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8590e348-42fa-4e4b-bc79-e69ed78370f4")
+	)
+	(wire
+		(pts
+			(xy 85.09 26.67) (xy 87.63 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8855eef6-549b-4bc9-9e7c-97e5f6dc5071")
+	)
+	(wire
+		(pts
+			(xy 201.93 40.64) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8891085f-c023-41f3-a2a9-1cb197b1e56c")
+	)
+	(wire
+		(pts
+			(xy 172.72 29.21) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889d9846-8a03-4ab0-999b-d12ef3d17c27")
+	)
+	(wire
+		(pts
+			(xy 252.73 36.83) (xy 241.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d805e5-d47d-4220-b139-6185af775cce")
+	)
+	(wire
+		(pts
+			(xy 234.95 114.3) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd00a4b-f80f-4c52-bff6-1e01b0bd049b")
+	)
+	(wire
+		(pts
+			(xy 201.93 44.45) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f189b8e-e6b0-4769-9dc9-37fa963d1a3c")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 205.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904e9d0d-7c17-40f4-b8a8-3116649b9359")
+	)
+	(wire
+		(pts
+			(xy 231.14 44.45) (xy 231.14 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9076f429-968d-470f-bf15-94a912a5c242")
+	)
+	(wire
+		(pts
+			(xy 201.93 25.4) (xy 190.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cf1fac-d9c3-4185-aae6-a32bc4b5475d")
+	)
+	(wire
+		(pts
+			(xy 85.09 20.32) (xy 85.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9660de31-f763-4352-8e90-cd5a18f7e925")
+	)
+	(wire
+		(pts
+			(xy 259.08 69.85) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9968628e-7a4f-4061-ad57-8472c5e95a18")
+	)
+	(wire
+		(pts
+			(xy 177.8 36.83) (xy 177.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99704605-b8a8-43ce-bbc9-7de31a1a5b0f")
+	)
+	(wire
+		(pts
+			(xy 208.28 57.15) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1ea978-c019-4e3a-ab32-640a94f464b8")
+	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 170.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b46434b-dd49-4d43-92cb-47729aca841d")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f105337-b2f3-4b84-9030-03f0c37b2fe1")
+	)
+	(wire
+		(pts
+			(xy 252.73 25.4) (xy 241.3 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bce09b-505f-48ce-8a83-150c5be27537")
+	)
+	(wire
+		(pts
+			(xy 223.52 44.45) (xy 226.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0cea04-d066-4a9a-8366-071a76ce9a64")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 190.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0402576-f737-4569-a5aa-bdf496076cff")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1caa5c8-04ae-434c-b1ff-46e26993d8c3")
+	)
+	(wire
+		(pts
+			(xy 153.91 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ca5936-86b5-42dd-ae83-ca7ed8fbd4d6")
+	)
+	(wire
+		(pts
+			(xy 170.18 44.45) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52ec16c-e654-4ae0-b0ea-063852c1728d")
+	)
+	(wire
+		(pts
+			(xy 175.26 44.45) (xy 177.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b621017f-fa45-4000-b8f4-15d5498a60dd")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c37f60-6981-4965-b748-45bb3878752a")
+	)
+	(wire
+		(pts
+			(xy 59.69 20.32) (xy 85.09 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a630d6-546a-4f54-832f-f7ca45cd9e97")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 153.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b14842-e186-4eb0-a5b4-d6219a45cd7d")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 210.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9874616-7592-4e6e-b6f7-f5b8ceda9699")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 180.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd521444-9bb2-4430-b2a9-0f5e56bba86c")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.15) (xy 205.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be283c2a-3c90-4d72-b19c-2ffe77dc3eb5")
+	)
+	(wire
+		(pts
+			(xy 183.91 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5105d1d-e1ff-4a17-a2e7-029be61641b6")
+	)
+	(wire
+		(pts
+			(xy 201.93 29.21) (xy 190.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9461597-cfdf-4ef8-b420-772a7d3e0684")
+	)
+	(wire
+		(pts
+			(xy 153.91 97.79) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca763932-ad0e-4cc0-837c-3b609dbb1a84")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 153.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc062366-3d13-4285-9cda-6ef407fce4b4")
+	)
+	(wire
+		(pts
+			(xy 223.52 29.21) (xy 223.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7d539d-21ea-4878-950e-6c8321648f5f")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 147.32 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e63c43-ff89-4118-85a9-b3158ac97ed7")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7d12cb-e111-4346-8db3-b868c2098634")
+	)
+	(wire
+		(pts
+			(xy 231.14 36.83) (xy 228.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea62914-b653-4368-9cd6-68ea67ab94d8")
+	)
+	(wire
+		(pts
+			(xy 85.09 24.13) (xy 87.63 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9461b5f-1529-409b-9a9a-bb67eb2e22df")
+	)
+	(wire
+		(pts
+			(xy 180.34 33.02) (xy 175.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8f0769-2f37-45a2-bb5b-efb2ce881b4b")
+	)
+	(wire
+		(pts
+			(xy 231.14 33.02) (xy 226.06 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb4b005-0272-4ac5-ba80-01eb6c49b05e")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e8e803-202e-4780-b855-fa939948acec")
+	)
+	(wire
+		(pts
+			(xy 228.6 44.45) (xy 231.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f139877f-c8f7-47b7-aa9f-d58c56fe9684")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6faf4a6-665d-4629-afa7-d581e2701e5d")
+	)
+	(wire
+		(pts
+			(xy 180.34 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c12b81-b0dc-4066-89b1-12447f54ac10")
+	)
+	(wire
+		(pts
+			(xy 132.08 39.37) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc847b5-2b19-4189-9411-2c42c630d7f5")
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 185.42 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01c6c770-f4e7-457c-83aa-9663e9fc939e")
+		(property "Reference" "BT5"
+			(at 187.2616 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 184.7216 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.944 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a53c9cb-4b9c-492a-8a04-0b40f857644d")
+		)
+		(pin "1"
+			(uuid "315de0e1-824e-4ee9-9dd3-bd821b01e793")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 59.69 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19da6f39-e3d6-4c75-a467-aa953ac5e348")
+		(property "Reference" "BT1"
+			(at 63.5 23.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 63.5 26.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 23.876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 59.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d511400-c8e6-4d3a-a077-aeb31e2ec3d6")
+		)
+		(pin "2"
+			(uuid "4e5fdcd3-f19d-42f6-9a6a-502666799555")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 236.22 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d11fdf0-ee04-4260-9261-0917b8e0101e")
+		(property "Reference" "BT8"
+			(at 238.0616 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 235.5216 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.744 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b484321b-d973-4436-9b13-6278a6951f52")
+		)
+		(pin "1"
+			(uuid "149f6fff-9b13-4f3c-808e-fa597606b47b")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Tekk032_F4_45A_ESC")
+		(at 195.58 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f6a1da-c662-45e3-8621-67f608bdc8ce")
+		(property "Reference" "U6"
+			(at 199.39 94.6151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 199.39 92.0751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "afd668e2-0f55-4838-9644-c2c93d44d951")
+		)
+		(pin "1"
+			(uuid "5a6da261-0804-4858-ad93-0fc8c69e50ee")
+		)
+		(pin "7"
+			(uuid "e63638d6-e20d-4b90-84ed-3f07257ea94c")
+		)
+		(pin "8"
+			(uuid "b982246e-ff72-4042-8f94-38c0895948a5")
+		)
+		(pin "3"
+			(uuid "66fdd81d-fdf2-4297-ac95-45dcf854f00f")
+		)
+		(pin "2"
+			(uuid "3bbe0abd-c87c-4c8f-a846-6dafa9506514")
+		)
+		(pin "4"
+			(uuid "74f0c2bf-b658-4565-ba35-5b92ff5aa2db")
+		)
+		(pin "5"
+			(uuid "a207a18c-b76d-437a-b0e1-a18888fc76da")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Matek_CRSF_PWM_C")
+		(at 168.91 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e33e41a-3f86-4f76-b3c3-d410095833fa")
+		(property "Reference" "U5"
+			(at 168.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Matek_CRSF_PWM_C"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.402 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "f04f245b-b3fb-484f-a3f2-170937971e13")
+		)
+		(pin "16"
+			(uuid "e3259978-e4bf-4f33-9e71-6a6353507865")
+		)
+		(pin "18"
+			(uuid "2dc63817-af74-4213-ab81-57f8f0d59b42")
+		)
+		(pin "15"
+			(uuid "3ac3d2d4-fcc9-45ac-b2d1-eaad226e915c")
+		)
+		(pin "4"
+			(uuid "a16e2657-4ceb-4cb5-972f-d0a51aa6e88e")
+		)
+		(pin "6"
+			(uuid "ca0cc709-2ba5-412d-95bb-364e28f3351b")
+		)
+		(pin "9"
+			(uuid "dab44264-a5a2-40b8-bdf9-91e46aabdf7b")
+		)
+		(pin "10"
+			(uuid "ad4c4cbc-6af2-4b51-afc3-558eeb79574c")
+		)
+		(pin "12"
+			(uuid "65330eb7-18fe-4c22-b085-ab070a0cf4d1")
+		)
+		(pin "3"
+			(uuid "5a69f81a-04bd-4e2f-8f25-ef1c80429d43")
+		)
+		(pin "13"
+			(uuid "f54459a7-bd3b-4d71-ad1d-70241e606c39")
+		)
+		(pin "5"
+			(uuid "328f23c3-dd6f-432d-ba72-f5072f315ec3")
+		)
+		(pin "7"
+			(uuid "f17f00e3-db47-4d9c-9c70-899d9a21a9cc")
+		)
+		(pin "19"
+			(uuid "0b90a9be-9dcc-41b7-8b7e-7b46ff66528e")
+		)
+		(pin "2"
+			(uuid "f44f46db-9899-49a4-8039-20a498b98416")
+		)
+		(pin "8"
+			(uuid "a937d831-c19a-431a-8b65-b6d81172bf86")
+		)
+		(pin "11"
+			(uuid "e32f7b15-0d0b-4777-bebb-54b632314804")
+		)
+		(pin "14"
+			(uuid "6a4a8da1-5162-4ba0-adac-52f15e4c7078")
+		)
+		(pin "1"
+			(uuid "aaf6b2fe-cbdf-4a9b-bd4d-1c95821e1db5")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 236.22 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "457c3222-2b2f-4cb8-8dfd-0e3f51293126")
+		(property "Reference" "BT9"
+			(at 238.0616 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 235.5216 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.744 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5285c7-937c-45cb-8c25-0fe0adc325a3")
+		)
+		(pin "2"
+			(uuid "ca35cb29-06b6-4425-a311-1e98e9e1f294")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 236.22 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af7d4cb-39c2-41cc-8aeb-8383b94225d1")
+		(property "Reference" "BT10"
+			(at 238.0616 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 235.5216 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.744 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c19180b5-f996-46f8-9628-4af42a96e93e")
+		)
+		(pin "1"
+			(uuid "bde8cd66-2e1b-445d-bf17-378820656762")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 236.22 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3917ee-ebee-4587-baa0-f4197b021c58")
+		(property "Reference" "BT7"
+			(at 238.0616 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 235.5216 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.744 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 236.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3a3689-5e02-4431-8da3-8f13d884b393")
+		)
+		(pin "2"
+			(uuid "caecfa98-8298-4231-8bf5-cae5de372980")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:5-1_Connector")
+		(at 217.17 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65507173-6871-42b8-b111-b0bc9de2039d")
+		(property "Reference" "U7"
+			(at 198.12 41.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 39.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dbc1bb5-98d8-43c4-9c83-75fb9506c272")
+		)
+		(pin "1"
+			(uuid "c8e690d7-d1b7-4ac6-a295-227c64654164")
+		)
+		(pin "4"
+			(uuid "4abf1f01-337c-45ee-846e-d38d2a256cfa")
+		)
+		(pin "5"
+			(uuid "726442d6-5b8c-4f0b-826e-c786bfae416e")
+		)
+		(pin "9"
+			(uuid "34ed9685-89bf-4dfd-82cf-a98a0db57546")
+		)
+		(pin "6"
+			(uuid "76382ec4-e450-41d7-90f4-3cc3d2ed88d2")
+		)
+		(pin "7"
+			(uuid "db9e7ddf-1578-4d8e-9a83-d82d8531e88a")
+		)
+		(pin "3"
+			(uuid "b5543e89-1969-4f74-80e2-caf2adc62b5c")
+		)
+		(pin "8"
+			(uuid "e3391373-07e5-4a15-8ea3-3467640ecd6f")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Matek_BEC12S_PRO")
+		(at 97.79 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66bc056b-1178-45dd-aa5f-b29b07810ab1")
+		(property "Reference" "U2"
+			(at 97.79 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 97.79 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3588b199-86c3-494c-8d80-8c287662aa54")
+		)
+		(pin "1"
+			(uuid "d694d314-34aa-4d29-9941-1a87c2e6ffd9")
+		)
+		(pin "3"
+			(uuid "4b6baeba-e4d6-4702-9e0c-35fbdd719e43")
+		)
+		(pin "4"
+			(uuid "b3cdab0f-8682-4ec2-9f1d-1c1c41c66954")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 185.42 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "762f0be6-bc62-4d82-96df-9e6fff881155")
+		(property "Reference" "BT3"
+			(at 187.2616 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 184.7216 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.944 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 185.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad23bcbc-6270-4fe4-b0cd-91221cc3019a")
+		)
+		(pin "1"
+			(uuid "adff1dfe-8d88-4f77-a80f-1f76037bdc39")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 185.42 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b916ac6-0202-49b7-ac69-d877841dd30c")
+		(property "Reference" "BT4"
+			(at 187.2616 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 184.7216 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.944 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff36aca4-7778-47b3-9cb7-c629b90f5419")
+		)
+		(pin "2"
+			(uuid "dbb72c3e-2a63-4c03-b09e-cdbcafb700a2")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Ground_Rail")
+		(at 135.89 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958f5182-4921-4dd2-8da2-c60e6ea22478")
+		(property "Reference" "U4"
+			(at 127 30.7311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 127 33.2711 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ff62e144-2b0e-4473-8b7e-1a76e5c9d6c9")
+		)
+		(pin "4"
+			(uuid "42c3ace2-564a-4cb6-bb79-2e8c92592fb3")
+		)
+		(pin "6"
+			(uuid "0a1e8f91-c03e-4a66-b3c7-b021cb73713d")
+		)
+		(pin "5"
+			(uuid "3b8726aa-2f3f-49f1-9abd-9b0b81dab38d")
+		)
+		(pin "2"
+			(uuid "0f38e2b7-769f-4acd-abb3-76a83d29953f")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 185.42 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e78d97-9c2c-4af9-8b78-da9c7a373e3a")
+		(property "Reference" "BT2"
+			(at 187.2616 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 184.7216 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.944 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 185.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "027605a2-992b-4077-b5a0-2e4ea7521af0")
+		)
+		(pin "2"
+			(uuid "13041a31-5160-4530-a128-afefe0353c4e")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:RadioMaster_XR3_Nano")
+		(at 139.7 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c046f163-14ba-4ced-823d-f40ca9df4e3e")
+		(property "Reference" "U1"
+			(at 149.86 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94b9e40c-0ecd-474b-a6dd-df3c72019805")
+		)
+		(pin "4"
+			(uuid "366e3df9-c5ba-4481-a0af-ac14578ba831")
+		)
+		(pin "1"
+			(uuid "f9a154e1-298a-45f1-a5d1-fe83f3150ee8")
+		)
+		(pin "2"
+			(uuid "c84445de-9598-409c-8d9b-5473fa545e14")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:5-1_Connector")
+		(at 267.97 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a89191-da75-4ca1-8320-5f49cee463fd")
+		(property "Reference" "U9"
+			(at 248.92 41.9101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 248.92 39.3701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fa5347b-81d5-42ad-9090-64e4c438b7eb")
+		)
+		(pin "1"
+			(uuid "a932dac7-003d-4233-9b0a-85a31fe22f37")
+		)
+		(pin "4"
+			(uuid "032078f8-bf79-4683-83e9-9a264b356d82")
+		)
+		(pin "5"
+			(uuid "4d2ee2ae-3d3a-46e4-baa6-9aa29cc0d02a")
+		)
+		(pin "9"
+			(uuid "5a3451bd-1944-4756-a3ff-9559fb5dd5aa")
+		)
+		(pin "6"
+			(uuid "67335b48-4b5d-498e-9a59-20fffdb35500")
+		)
+		(pin "7"
+			(uuid "068cc31a-c64d-4a74-bc74-61f60fd7a8c7")
+		)
+		(pin "3"
+			(uuid "3fd998c3-51ed-47a8-a4f6-6413bf5ec7ba")
+		)
+		(pin "8"
+			(uuid "b20c9b00-503e-45a5-8c46-ac0b3d0242aa")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Tekk032_F4_45A_ESC")
+		(at 246.38 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea7ad9d-850b-4298-bd5e-35fdafd906c9")
+		(property "Reference" "U8"
+			(at 250.19 94.6151 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 250.19 92.0751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b52e377d-92f0-46d3-891f-744ac5d4d572")
+		)
+		(pin "1"
+			(uuid "f32ef8a5-ff0a-4bcf-8c4a-b90adf9146ac")
+		)
+		(pin "7"
+			(uuid "2baec3b8-308c-4cf2-8f53-2e2e4fa9d1e8")
+		)
+		(pin "8"
+			(uuid "b9e40316-be6e-4c13-98e5-bcad51852d0f")
+		)
+		(pin "3"
+			(uuid "deb32fe7-d97f-4233-8358-741b8a26d51e")
+		)
+		(pin "2"
+			(uuid "3344f125-5426-4f5a-93ba-8f4bf9995b25")
+		)
+		(pin "4"
+			(uuid "6a4f413f-8fb5-4837-9acd-3ae97a8e9442")
+		)
+		(pin "5"
+			(uuid "3bace3d4-1ee3-487e-8a9c-f8f0ef4b9978")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 185.42 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8769b5d-0600-444b-a732-dd8fcd107c39")
+		(property "Reference" "BT6"
+			(at 187.2616 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 184.7216 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.944 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.944 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb9bb00d-b072-4be5-9d17-6485459bc226")
+		)
+		(pin "2"
+			(uuid "837d92db-9ec2-42fe-835a-6c42e4e92508")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 236.22 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f01c88de-b414-4c53-b010-b28a47a50cb4")
+		(property "Reference" "BT11"
+			(at 238.0616 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery"
+			(at 235.5216 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.744 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.744 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e94764-0681-4bbd-b80a-14cbbe3621db")
+		)
+		(pin "2"
+			(uuid "8eb46cfa-c6b6-4cf1-bff6-dc5b068a2312")
+		)
+		(instances
+			(project "AircraftElectronicsSchematic"
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "BT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ElectronicsSymbolLibrary:Power_Rail")
+		(at 152.4 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f584bc1a-0fba-4856-9721-4c2a54992579")
+		(property "Reference" "U3"
+			(at 143.51 28.1911 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 143.51 30.7311 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f155ca30-fa5e-472d-8802-ead7ce9b3c0a")
+		)
+		(pin "1"
+			(uuid "b80e7145-adfe-409c-acc5-a7f8302ddbaf")
+		)
+		(pin "4"
+			(uuid "e07376ba-52af-4389-8e0b-894648659224")
+		)
+		(pin "5"
+			(uuid "de5f0a38-87d8-4f64-bd1a-c06e5aa994f7")
+		)
+		(pin "6"
+			(uuid "bd58b5b9-807f-4bda-93b9-05296535cf7a")
+		)
+		(instances
+			(project ""
+				(path "/02d672a3-1256-4f1e-b075-54da08135e5d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

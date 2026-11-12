@@ -311,7 +311,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 3.81 -0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,7 +356,7 @@
 		(symbol "Ground_Rail_1_1"
 			(rectangle
 				(start -5.08 -3.81)
-				(end 5.08 -17.78)
+				(end 12.7 -17.78)
 				(stroke
 					(width 0)
 					(type solid)
@@ -366,7 +366,7 @@
 				)
 			)
 			(text "Ground_Rail\n"
-				(at 0 -1.524 0)
+				(at 3.81 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -383,7 +383,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -401,7 +401,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -419,7 +419,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -437,7 +437,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -455,7 +455,61 @@
 						)
 					)
 				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -20.32 90)
+				(length 2.54)
+				(name "GND_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -20.32 90)
+				(length 2.54)
+				(name "GND_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 -20.32 90)
+				(length 2.54)
+				(name "GND_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -516,7 +570,7 @@
 		(symbol "Matek_BEC12S_PRO_1_1"
 			(rectangle
 				(start -10.16 2.54)
-				(end 10.16 -10.16)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -552,7 +606,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -8.89 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "GND_IN"
 					(effects
@@ -588,7 +642,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -8.89 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "GND_OUT"
 					(effects
@@ -1042,7 +1096,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.524 0)
+			(at 4.318 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1141,7 @@
 		(symbol "Power_Rail_1_1"
 			(rectangle
 				(start -5.08 -1.27)
-				(end 5.08 -13.97)
+				(end 13.97 -13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1097,7 +1151,7 @@
 				)
 			)
 			(text "Power_Rail\n"
-				(at 0 0 0)
+				(at 4.318 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1132,7 +1186,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1150,7 +1204,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1168,7 +1222,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1186,7 +1240,185 @@
 						)
 					)
 				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -16.51 90)
+				(length 2.54)
+				(name "5V_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 -16.51 90)
+				(length 2.54)
+				(name "5V_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 -16.51 90)
+				(length 2.54)
+				(name "5V_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Propellor__LPI_2080"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.27 -12.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Propellor__LPI_2080_1_1"
+			(rectangle
+				(start -5.08 -1.27)
+				(end 5.08 -25.4)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "Propellor_LPI_2080"
+				(at -1.524 -13.97 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 1.27 270)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 1.27 270)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 1.27 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.032 0.508 0)
+				(at 2.286 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,7 +65,7 @@
 					)
 				)
 				(text "5-1_Connector\n"
-					(at 2.032 -0.762 0)
+					(at 2.032 -4.064 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -537,7 +537,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.032 0.508 0)
+				(at 2.286 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -592,7 +592,7 @@
 					)
 				)
 				(text "5-1_Connector\n"
-					(at 2.032 -0.762 0)
+					(at 2.032 -4.064 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -841,7 +841,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 -0.508 0)
+				(at 11.43 -7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -896,7 +896,7 @@
 					)
 				)
 				(text "Ground_Rail\n"
-					(at 3.81 -2.032 0)
+					(at 6.604 -5.08 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1161,7 +1161,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.842 0)
+				(at 0 -6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 					)
 				)
 				(text "Matek_BEC12S_PRO"
-					(at 0 3.81 0)
+					(at 0 -4.064 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 					)
 				)
 				(pin power_out line
-					(at 12.7 1.27 180)
+					(at 12.7 0 180)
 					(length 2.54)
 					(name "OUT+"
 						(effects
@@ -1732,7 +1732,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 4.318 2.032 0)
+				(at 12.954 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 					)
 				)
 				(text "Power_Rail\n"
-					(at 4.318 0.508 0)
+					(at 8.382 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2070,7 +2070,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 3.048 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 			(symbol "RadioMaster_XR3_Nano_1_1"
 				(rectangle
 					(start -8.89 6.35)
-					(end 8.89 -3.81)
+					(end 13.97 -3.81)
 					(stroke
 						(width 0)
 						(type solid)
@@ -2125,7 +2125,7 @@
 					)
 				)
 				(text "RadioMaster_XR3_Nano"
-					(at 0 8.128 0)
+					(at 2.54 4.826 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 					)
 				)
 				(pin output line
-					(at 11.43 2.54 180)
+					(at 16.51 2.54 180)
 					(length 2.54)
 					(name "TX"
 						(effects
@@ -2187,7 +2187,7 @@
 					)
 				)
 				(pin input line
-					(at 11.43 0 180)
+					(at 16.51 0 180)
 					(length 2.54)
 					(name "RX"
 						(effects
@@ -2212,7 +2212,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -21.336 -14.986 90)
+				(at -13.97 -17.78 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 					)
 				)
 				(text "Tekk032_F4_45A_ESC"
-					(at -19.558 -14.986 900)
+					(at -16.256 -16.51 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2523,16 +2523,6 @@
 			(type default)
 		)
 		(uuid "13ccdb36-915b-4b8c-913e-99ce0fb7273d")
-	)
-	(wire
-		(pts
-			(xy 67.31 21.59) (xy 96.52 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c8a15d5-def5-41c8-9f31-73bb6b3ad671")
 	)
 	(wire
 		(pts
@@ -3256,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 22.86) (xy 96.52 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8556bef-baf1-4db2-b236-f0fa2ccb3f0e")
+	)
+	(wire
+		(pts
 			(xy 204.47 81.28) (xy 201.93 81.28)
 		)
 		(stroke
@@ -3785,7 +3785,7 @@
 		(fields_autoplaced yes)
 		(uuid "20f6a1da-c662-45e3-8621-67f608bdc8ce")
 		(property "Reference" "U6"
-			(at 184.785 68.58 90)
+			(at 184.15 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3793,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 184.785 71.12 90)
+			(at 182.118 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4321,7 @@
 		(dnp no)
 		(uuid "66bc056b-1178-45dd-aa5f-b29b07810ab1")
 		(property "Reference" "U2"
-			(at 54.61 17.018 0)
+			(at 54.864 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 54.61 15.24 0)
+			(at 53.086 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4868,7 @@
 		(fields_autoplaced yes)
 		(uuid "958f5182-4921-4dd2-8da2-c60e6ea22478")
 		(property "Reference" "U4"
-			(at 72.39 35.8111 0)
+			(at 93.218 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4877,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 72.39 38.3511 0)
+			(at 90.424 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "ElectronicsSymbolLibrary:RadioMaster_XR3_Nano")
-		(at 62.23 99.06 0)
+		(at 54.61 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5093,7 +5093,7 @@
 		(fields_autoplaced yes)
 		(uuid "c046f163-14ba-4ced-823d-f40ca9df4e3e")
 		(property "Reference" "U1"
-			(at 62.23 87.63 0)
+			(at 57.404 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5101,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 62.23 90.17 0)
+			(at 55.626 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 99.06 0)
+			(at 54.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 99.06 0)
+			(at 54.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 99.06 0)
+			(at 54.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5418,7 @@
 	)
 	(symbol
 		(lib_id "ElectronicsSymbolLibrary:Power_Rail")
-		(at 104.14 17.78 0)
+		(at 104.14 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5427,7 +5427,7 @@
 		(fields_autoplaced yes)
 		(uuid "f584bc1a-0fba-4856-9721-4c2a54992579")
 		(property "Reference" "U3"
-			(at 95.25 23.1111 0)
+			(at 95.25 24.3811 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5436,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 95.25 25.6511 0)
+			(at 95.25 26.9211 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 17.78 0)
+			(at 104.14 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 17.78 0)
+			(at 104.14 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5463,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 17.78 0)
+			(at 104.14 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

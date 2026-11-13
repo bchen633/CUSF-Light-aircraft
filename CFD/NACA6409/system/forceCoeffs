@@ -1,0 +1,41 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Version:  v2606
+    \\  /    A nd           |
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      forceCoeffs;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+type            forceCoeffs;
+libs            ("libforces.so");
+
+writeControl    writeTime;
+
+patches         (airfoil);
+
+// Reference values for 1.0m chord and 0.1m Z-extrusion span
+magUInf         10;
+lRef            1.0;
+Aref            0.1;
+
+// Directions for 0 deg angle of attack
+// (If AoA > 0, set dragDir to (cos alpha, sin alpha, 0) and liftDir to (-sin alpha, cos alpha, 0))
+dragDir         (1 0 0);
+liftDir         (0 1 0);
+CofR            (0.25 0 0);
+
+// Incompressible reference density
+rho             rhoInf;
+rhoInf          1.225;
+
+// ************************************************************************* //
+

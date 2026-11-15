@@ -1,0 +1,8 @@
+solverInfo
+    {
+    	type        solverInfo;
+    	libs        (utilityFunctionObjects);
+    	fields      (U p k omega ReThetat gammaInt);
+    	writeControl timeStep;
+    	writeInterval 1;
+    }
